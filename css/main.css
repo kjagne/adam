@@ -1,0 +1,146 @@
+*{
+  width: 100%;
+}
+html{
+  width: 100%;
+}
+
+#regForm {
+  background-color: palegoldenrod;
+  margin: 35px auto;
+  font-family: Raleway;
+  padding: 40px;
+  width: 35%;
+  min-width: 300px;
+  height: 530px;
+  opacity: 0.8;
+}
+
+h1 {
+  text-align: center;
+  font: bold;
+  font-size: 35px;
+}
+
+input {
+  padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  font-family: Raleway;
+  border: 1px solid #aaaaaa;
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+  background-color: #ffdddd;
+}
+
+/* Hide all steps by default: */
+.tab {
+  display: none;
+}
+
+.tab h2{
+  font-size: 35px;
+}
+button {
+  background-color: #4CAF50;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 17px;
+  font-family: Raleway;
+  cursor: pointer;
+  margin: 0 75px 0 0;
+}
+
+button: {
+  opacity
+}
+#nextBtn{
+  background-color: #4CAF50;
+  margin: 0px -3px;
+  width: 100%;
+}
+
+#prevBtn {
+    background-color: pick;
+    width: 100%;
+    margin: 0 0 16px;
+}
+#sub{  
+  background-color: #4CAF50;
+margin: 20px -3px;
+width: 100%;
+}
+
+/* Make circles that indicate the steps of the form: */
+.step {
+  height: 15px;
+  width: 10px;
+  margin: 0 0px -100px 0;
+  background-color: #bbbbbb;
+  border: none;  
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+.step.active {
+  opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #4CAF50;
+}
+
+
+
+/*................*/
+ {
+  /*the container must be positioned relative:*/
+  position: relative;
+  display: inline-block;
+}
+input {
+  border: 1px solid transparent;
+  background-color: #f1f1f1;
+  padding: 10px;
+  font-size: 16px;
+}
+input[type=text] {
+  background-color: #f1f1f1;
+  width: 100%;
+}
+input[type=submit] {
+  background-color: DodgerBlue;
+  color: #fff;
+  cursor: pointer;
+}
+.autocomplete {
+  /*the container must be positioned relative:*/
+  position: relative;
+  display: inline-block;
+}
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  /*position the autocomplete items to be the same width as the container:*/
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff; 
+  border-bottom: 1px solid #d4d4d4; 
+}
+.autocomplete-items div:hover {
+  /*when hovering an item:*/
+  background-color: #e9e9e9; 
+}
